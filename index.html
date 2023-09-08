@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Add meta tag for responsive design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="icon" href="./assets/img/adi-logo-pic.png" type="image/icon type">
@@ -342,16 +343,16 @@
                     </div>
                 </div>
 
-            </section>
+            </section>      
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
-                    <form action="https://formspree.io/f/meqbgerk" method="POST" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Contact" class="contact__button button">
+                    <form action="mailto:adityaprakash2lry@gmail.com" method="POST" enctype="text/plain" class="contact__form">
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea>
+                        <input type="submit" value="Contact" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -376,3 +377,4 @@
         <script src="./assets/js/main.js"></script>
     </body>
 </html>
+

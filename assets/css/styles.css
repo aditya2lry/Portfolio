@@ -28,6 +28,7 @@
 body.dark-mode {
   background-color:#020629;
   color: #f9f9f9;
+
 }
 body.dark-mode .nav__link {
   color: #070000;
